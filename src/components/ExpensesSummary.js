@@ -8,9 +8,9 @@ export class ExpensesSummary extends React.Component {
 
   render() {
     return (
-      <h3>Viewing {this.props.filteredExpenses.length} expense(s) totalling {numeral(
+      <h1>Viewing {this.props.filteredExpenses.length} expense(s) totalling {numeral(
                       this.props.getExpenseTotal(this.props.filteredExpenses) / 100)
-                      .format('$0,0.00')}</h3>
+                      .format('$0,0.00')}</h1>
     );
   }
 
