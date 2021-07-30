@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Expenses summary empty expenses array 1`] = `
+<h3>
+  Viewing 
+  3
+   expense(s) totalling 
+  $15.00
+</h3>
+`;
