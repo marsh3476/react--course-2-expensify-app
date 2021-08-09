@@ -13,6 +13,7 @@ import './firebase/firebase';
 
 
 const store = configureStore();
+const hi = 3;
 
 
 
